@@ -17,6 +17,24 @@
       ],
       "@libs/db/*": [
         "libs/db/src/*"
+      ],
+      "@app/common": [
+        "libs/common/src"
+      ],
+      "@app/common/*": [
+        "libs/common/src/*"
+      ],
+      "@app/config": [
+        "libs/config/src"
+      ],
+      "@app/config/*": [
+        "libs/config/src/*"
+      ],
+      "@app/com": [
+        "libs/com/src"
+      ],
+      "@app/com/*": [
+        "libs/com/src/*"
       ]
     }
   }

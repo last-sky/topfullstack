@@ -34,6 +34,33 @@
       "compilerOptions": {
         "tsConfigPath": "libs/db/tsconfig.lib.json"
       }
+    },
+    "common": {
+      "type": "library",
+      "root": "libs/common",
+      "entryFile": "index",
+      "sourceRoot": "libs/common/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/common/tsconfig.lib.json"
+      }
+    },
+    "config": {
+      "type": "library",
+      "root": "libs/config",
+      "entryFile": "index",
+      "sourceRoot": "libs/config/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/config/tsconfig.lib.json"
+      }
+    },
+    "com": {
+      "type": "library",
+      "root": "libs/com",
+      "entryFile": "index",
+      "sourceRoot": "libs/com/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/com/tsconfig.lib.json"
+      }
     }
   }
 }

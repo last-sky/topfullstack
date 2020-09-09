@@ -34,7 +34,7 @@ export default class Main extends Vue {
         title: "内容管理",
         items: [
           { title: "课程管理", path: "/courses/list" },
-          { title: "课时管理", path: "/epilodes/list" },
+          { title: "课时管理", path: "/episodes/list" },
         ],
       },
       {

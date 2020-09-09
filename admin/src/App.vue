@@ -4,3 +4,8 @@
   </div>
 </template>
 
+<style>
+.avue-upload__avatar{
+  height: auto !important;
+}
+</style>

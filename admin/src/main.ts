@@ -1,15 +1,19 @@
 import Vue from 'vue'
 import App from './App.vue'
-import EleForm from "vue-ele-form"
 import axios from "axios"
 import './plugins/element'
+import './plugins/avue'
 import router from './router'
+// import EleForm from "vue-ele-form"
+// Vue.use(EleForm)
+const http=axios.create({
+  baseURL:process.env.VUE_APP_API_URL
+})
 
 Vue.config.productionTip = false
-Vue.use(EleForm)
-Vue.prototype.$http=axios.create({
-  baseURL:"http://localhost:3000"
-})
+Vue.prototype.$axios=http
+window.axios=http
+Vue.prototype.$http=http
 new Vue({
   router,
   render: h => h(App)
