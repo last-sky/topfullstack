@@ -1,19 +1,19 @@
 import { Controller, Get } from '@nestjs/common';
 import { Crud } from 'nestjs-mongoose-crud';
-import { Course } from '@libs/db/models/course.model';
 import { ApiTags } from '@nestjs/swagger';
 import { InjectModel } from 'nestjs-typegoose';
 import { ReturnModelType } from '@typegoose/typegoose';
+import { Question } from '@libs/db/models/question.model';
 
 @Crud({
-  model: Course,
+  model: Question,
 })
-@Controller('courses')
-@ApiTags('课程')
-export class CoursesController {
+@Controller('questions')
+@ApiTags('问题')
+export class QuestionsController {
   constructor(
-    @InjectModel(Course)
-    private readonly model: ReturnModelType<typeof Course>,
+    @InjectModel(Question)
+    private readonly model: ReturnModelType<typeof Question>,
   ) {}
 
   @Get('option')

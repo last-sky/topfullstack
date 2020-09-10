@@ -4,11 +4,18 @@ import { TypegooseModule } from "nestjs-typegoose"
 import {User} from "@libs/db/models/user.model";
 import {Course} from "@libs/db/models/course.model";
 import {Episode} from "@libs/db/models/episode.model";
+import {Subject} from "@libs/db/models/subject.model";
+import {Exam} from "@libs/db/models/exam.model";
+import {Question} from "@libs/db/models/question.model";
 
 const models=TypegooseModule.forFeature([
     User,
     Course,
-    Episode
+    Episode,
+    Subject,
+    Exam,
+    Question,
+
 ])
 @Global()
 @Module({

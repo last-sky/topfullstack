@@ -11,23 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7cf83114-9629-4b3a-8d11-71dc9e4c44ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/admin/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/plugins/avue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/views/courses/CourseEdit.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/views/courses/CourseList.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/.env.example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/apps/server/src/courses/courses.controller.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/apps/server/src/courses/courses.controller.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/apps/server/src/courses/courses.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/libs/db/src/models/course.model.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/libs/db/src/models/episode.model.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/libs/db/src/models/user.model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/admin/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/admin/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/components/HelloWorld.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/components/HelloWorld.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +21,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/web" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1hAsXkeOVMoAoA0pQeHCRNKh0DH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -47,7 +33,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.linters.configure.manually.selectedeslint" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/server/apps/server" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/server/libs/db/src/models" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -60,24 +46,27 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettier.files.pattern" value="{**/*,*}.{js,ts,jsx,tsx,vue}" />
     <property name="prettierjs.PrettierConfiguration.Package" value="D:\phpStudy018\PHPTutorial\WWW\topfullstack\web\node_modules\prettier" />
-    <property name="run.prettier.on.save" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
     <property name="ts.external.directory.path" value="D:\phpStudy018\PHPTutorial\WWW\topfullstack\admin\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
     <property name="vuejs.nuxt.types-notification-shown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\phpStudy018\PHPTutorial\WWW\topfullstack\server\libs\db\src\models" />
+      <recent name="D:\phpStudy018\PHPTutorial\WWW" />
+      <recent name="D:\phpStudy018\PHPTutorial\WWW\topfullstack\web" />
       <recent name="D:\phpStudy018\PHPTutorial\WWW\topfullstack\server\apps\server" />
       <recent name="D:\phpStudy018\PHPTutorial\WWW\topfullstack\admin" />
-      <recent name="D:\phpStudy018\PHPTutorial\WWW\topfullstack\server" />
-      <recent name="D:\phpStudy018\PHPTutorial\WWW\topfullstack\admin\src\views\courses" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\phpStudy018\PHPTutorial\WWW\topfullstack\admin\src\views" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="7cf83114-9629-4b3a-8d11-71dc9e4c44ed" name="Default Changelist" comment="" />
@@ -92,7 +81,14 @@
       <workItem from="1599634932762" duration="26000" />
       <workItem from="1599634960125" duration="98000" />
       <workItem from="1599635078349" duration="7488000" />
-      <workItem from="1599642764501" duration="1212000" />
+      <workItem from="1599642764501" duration="6094000" />
+      <workItem from="1599718247234" duration="1387000" />
+      <workItem from="1599719743464" duration="1199000" />
+      <workItem from="1599720980035" duration="1449000" />
+      <workItem from="1599722558469" duration="3075000" />
+      <workItem from="1599725689123" duration="1368000" />
+      <workItem from="1599729145927" duration="89000" />
+      <workItem from="1599729256886" duration="1337000" />
     </task>
     <servers />
   </component>
@@ -120,6 +116,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="838" y="266" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1599552354650" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599725624686">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1599725624686" />
     <state x="472" y="211" key="EditFileWatcherDialog" timestamp="1599634289576">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -144,18 +144,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="943" height="202" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599559450458" />
-    <state x="520" y="61" key="SettingsEditor" timestamp="1599642700696">
+    <state x="521" y="114" key="RollbackChangesDialog" timestamp="1599718302572">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="520" y="61" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1599642700696" />
+    <state x="521" y="114" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1599718302572" />
+    <state x="520" y="61" key="SettingsEditor" timestamp="1599724112136">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="520" y="61" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1599724112136" />
     <state x="798" y="114" width="746" height="550" key="dock-window-1" timestamp="1599634001486">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="798" y="114" width="746" height="550" key="dock-window-1/0.0.1536.824@0.0.1536.824" timestamp="1599634001486" />
-    <state x="69" y="0" width="600" height="824" key="find.popup" timestamp="1599532114851">
+    <state x="69" y="0" width="600" height="824" key="find.popup" timestamp="1599720120108">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="69" y="0" width="600" height="824" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1599532114851" />
+    <state x="69" y="0" width="600" height="824" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1599720120108" />
     <state x="747" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1599639959589">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -183,6 +187,20 @@
           <url>file://$PROJECT_DIR$/web/components/Logo.vue</url>
           <line>15</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/apps/admin/src/courses/courses.controller.ts</url>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/apps/admin/src/questions/questions.controller.ts</url>
+          <line>20</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/apps/admin/src/courses/courses.controller.ts</url>
+          <line>15</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

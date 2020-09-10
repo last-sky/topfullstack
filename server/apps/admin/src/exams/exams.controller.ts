@@ -1,19 +1,19 @@
 import { Controller, Get } from '@nestjs/common';
 import { Crud } from 'nestjs-mongoose-crud';
-import { Course } from '@libs/db/models/course.model';
-import { ApiTags } from '@nestjs/swagger';
+import { Exam } from '@libs/db/models/exam.model';
 import { InjectModel } from 'nestjs-typegoose';
 import { ReturnModelType } from '@typegoose/typegoose';
-
+import { ApiTags } from '@nestjs/swagger';
+import { Question } from '@libs/db/models/question.model';
 @Crud({
-  model: Course,
+  model: Exam,
 })
-@Controller('courses')
-@ApiTags('课程')
-export class CoursesController {
+@Controller('exams')
+@ApiTags('考试科目')
+export class ExamsController {
   constructor(
-    @InjectModel(Course)
-    private readonly model: ReturnModelType<typeof Course>,
+    @InjectModel(Exam)
+    private readonly model: ReturnModelType<typeof Exam>,
   ) {}
 
   @Get('option')
@@ -23,7 +23,7 @@ export class CoursesController {
       column: [
         {
           prop: 'name',
-          label: '课程名称',
+          label: '考试名称',
           span: 24,
           sortable: true,
           search: true,
@@ -31,13 +31,9 @@ export class CoursesController {
           row: true,
         },
         {
-          prop: 'cover',
-          label: '课程封面',
-          type: 'upload',
-          listType: 'picture-img',
-          width: '120',
+          prop: 'code',
+          label: '考试代码',
           row: true,
-          action: 'upload',
         },
       ],
     };
