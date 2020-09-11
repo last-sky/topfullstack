@@ -48,6 +48,8 @@ export class QuestionsController {
           dicData: types,
           type: 'select',
           row: true,
+          multiple:true,
+
         },
         {
           prop: 'url',

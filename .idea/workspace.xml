@@ -90,7 +90,7 @@
       <workItem from="1599729256886" duration="1337000" />
       <workItem from="1599788679691" duration="5000" />
       <workItem from="1599788808978" duration="13549000" />
-      <workItem from="1599812092976" duration="4115000" />
+      <workItem from="1599812092976" duration="5832000" />
     </task>
     <servers />
   </component>
@@ -181,7 +181,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/admin/src/views/ResourceCrud.vue</url>
-          <line>29</line>
+          <line>28</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
