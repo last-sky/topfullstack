@@ -8,6 +8,11 @@ import { Course } from '@libs/db/models/course.model';
 
 @Crud({
   model: Episode,
+  routes:{
+    find:{
+      sort:{"_id":-1}
+    }
+  }
 })
 @Controller('episodes')
 @ApiTags('课时')

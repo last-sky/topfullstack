@@ -12,6 +12,13 @@ export class Question {
   @prop()
   title: string;
 
+  @ApiProperty({ description: '链接' })
+  @prop()
+  url: [string];
+
+  @ApiProperty({description:"题型"})
+  @prop()
+  type:string
   @ApiProperty({ description: '备选项' })
   @prop()
   option: string;
@@ -22,7 +29,8 @@ export class Question {
 
   @ApiProperty({ description: '问题延伸' })
   @prop()
-  extend: string;
+  desc: string;
+
   @prop({ ref: 'Exam' })
   subject: string;
 }

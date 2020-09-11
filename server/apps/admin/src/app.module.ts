@@ -10,10 +10,12 @@ import { EpisodesModule } from './episodes/episodes.module';
 import { QuestionsModule } from './questions/questions.module';
 import { ExamsModule } from './exams/exams.module';
 import { SubjectsModule } from './subjects/subjects.module';
+import { QuestiontypesModule } from './questiontypes/questiontypes.module';
 
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const MAO = require('multer-aliyun-oss');
 
+// @ts-ignore
 @Module({
   imports: [
     CommonModule,
@@ -35,8 +37,10 @@ const MAO = require('multer-aliyun-oss');
     UsersModule,
     CoursesModule,
     QuestionsModule,
+    QuestiontypesModule,
     ExamsModule,
     SubjectsModule,
+    QuestiontypesModule,
       
   ],
   controllers: [AppController],

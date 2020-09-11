@@ -10,6 +10,7 @@
   "dependencies": {
     "@smallwei/avue": "^2.6.15",
     "@types/axios": "^0.14.0",
+    "avue-plugin-ueditor": "^0.1.5",
     "axios": "^0.20.0",
     "core-js": "^3.6.5",
     "element-ui": "^2.4.5",

@@ -14,6 +14,10 @@ Vue.use(VueRouter)
     component: Main,
     children:[
       {name:"home",path:"/",component:Home},
+      // {name:"courses-crud22",path:"/questiontypes/list",
+      //   component:ResourceCrud,
+      //   props:true
+      // },
       {name:"courses-crud",path:"/:resource/list",
         component:ResourceCrud,
         props:true

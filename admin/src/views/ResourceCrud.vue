@@ -11,6 +11,7 @@
       @on-load="changePage"
       @sort-change="changeSort"
       @search-change="search"
+      @cell-mouse-enter="changeType"
     >
     </avue-crud>
   </div>
@@ -34,6 +35,12 @@ export default class ResourceList extends Vue {
     background: true,
   };
   option: any = {
+    title:"",
+    index: true,
+    indexLabel: '序号',
+    loading: true,
+    translate: false,
+    column:{},
     search: {
       span: 4,
     },
@@ -42,6 +49,9 @@ export default class ResourceList extends Vue {
     limit: 2,
   };
 
+  async changeType(){
+    // console.log(data);
+  }
   async search(where, done) {
     for (let k in where) {
       const field = this.option.column.find((v) => v.prop === k);
@@ -103,7 +113,8 @@ export default class ResourceList extends Vue {
 
   async fetchOption() {
     const res = await this.$http.get(`${this.resource}/option`);
-    this.option = res.data;
+    this.option.title = res.data.title;
+    this.option.column = res.data.column;
   }
 
   async fetch() {

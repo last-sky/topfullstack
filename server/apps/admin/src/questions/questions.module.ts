@@ -1,5 +1,5 @@
 import { Module } from '@nestjs/common';
-import { QuestionsController } from './questions.controller';
+import {QuestionsController} from './questions.controller';
 
 @Module({
   controllers: [QuestionsController]

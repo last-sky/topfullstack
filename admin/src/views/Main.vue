@@ -51,6 +51,7 @@ export default class Main extends Vue {
         items: [
           { title: "考试科目", path: "/subjects/list" },
           { title: "试题库", path: "/questions/list" },
+          { title: "题型管理", path: "/questiontypes/list" },
         ],
       },
       {
