@@ -8,6 +8,7 @@ import {Subject} from "@libs/db/models/subject.model";
 import {Exam} from "@libs/db/models/exam.model";
 import {Question} from "@libs/db/models/question.model";
 import {QuestionType} from "@libs/db/models/questionType.model";
+import {Action} from "@libs/db/models/action.model";
 
 const models=TypegooseModule.forFeature([
     User,
@@ -16,7 +17,8 @@ const models=TypegooseModule.forFeature([
     Subject,
     Exam,
     Question,
-    QuestionType
+    QuestionType,
+    Action,
 
 ])
 @Global()

@@ -1,5 +1,5 @@
 import colors from 'vuetify/es5/util/colors'
-console.log(process.env.API_URL)
+
 export default {
   /*
    ** Nuxt rendering mode
@@ -63,9 +63,23 @@ export default {
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
+    '@nuxtjs/auth',
     '@nuxtjs/dotenv',
     '@nuxtjs/pwa',
   ],
+  auth: {
+    strategies: {
+      local: {
+        endpoints: {
+          login: {
+            url: 'auth/login',
+          },
+          logout: { url: '/auth/login' },
+          user: { url: '/auth/user', propertyName: false },
+        },
+      },
+    },
+  },
   /*
    ** Axios module configuration
    ** See https://axios.nuxtjs.org/options

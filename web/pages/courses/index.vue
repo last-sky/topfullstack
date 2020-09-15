@@ -3,17 +3,19 @@
     <h3>热门课程</h3>
     <v-row>
       <v-col v-for="(item, i) in courses" :key="i">
-        <v-card :to="`/courses/${item._id}`" class="mx-auto" max-width="344">
-          <v-img :src="item.cover" height="200px"></v-img>
+        <v-card class="mx-auto" max-width="344">
+          <router-link :to="`/courses/${item._id}`">
+            <v-img :src="item.cover" height="200px"></v-img>
 
-          <v-card-title> Top western road trips </v-card-title>
+            <v-card-title> Top western road trips</v-card-title>
+          </router-link>
 
-          <v-card-subtitle> 1,000 miles of wonder </v-card-subtitle>
+          <v-card-subtitle>{{ item.createAt }}</v-card-subtitle>
 
           <v-card-actions>
-            <v-btn text>Share</v-btn>
+            <like-btn text type="Course" :object="item._id">Share</like-btn>
 
-            <v-btn color="purple" text> Explore </v-btn>
+            <v-btn color="purple" text> Explore</v-btn>
 
             <v-spacer></v-spacer>
           </v-card-actions>
@@ -21,14 +23,7 @@
             <div>
               <v-divider></v-divider>
 
-              <v-card-text>
-                I'm a thing. But, like most politicians, he promised more than
-                he could deliver. You won't have time for sleeping, soldier, not
-                with all the bed making you'll be doing. Then we'll go with that
-                data file! Hey, you add a one and two zeros to that or we walk!
-                You're going to do his laundry? I've got to find a way to
-                escape.
-              </v-card-text>
+              <v-card-text></v-card-text>
             </div>
           </v-expand-transition>
         </v-card>
@@ -38,7 +33,12 @@
 </template>
 
 <script>
+import LikeBtn from '../../components/LikeBtn.vue'
+
 export default {
+  components: {
+    LikeBtn,
+  },
   async asyncData({ $axios }) {
     const data = await $axios.$get('courses')
     return {

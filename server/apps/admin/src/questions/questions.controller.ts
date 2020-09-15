@@ -48,8 +48,12 @@ export class QuestionsController {
           dicData: types,
           type: 'select',
           row: true,
-          multiple:true,
-
+          onChange:function (){
+            alert(1)
+          },
+          select:function (){
+            alert(2)
+          }
         },
         {
           prop: 'url',

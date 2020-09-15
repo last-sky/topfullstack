@@ -56,10 +56,10 @@
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\phpStudy018\PHPTutorial\WWW\topfullstack\server\libs\db\src\models" />
+      <recent name="D:\phpStudy018\PHPTutorial\WWW\topfullstack\server\apps\server\src\auth" />
+      <recent name="D:\phpStudy018\PHPTutorial\WWW\topfullstack\server\apps\server\src\auth\dto" />
       <recent name="D:\phpStudy018\PHPTutorial\WWW" />
       <recent name="D:\phpStudy018\PHPTutorial\WWW\topfullstack\web" />
-      <recent name="D:\phpStudy018\PHPTutorial\WWW\topfullstack\server\apps\server" />
-      <recent name="D:\phpStudy018\PHPTutorial\WWW\topfullstack\admin" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -91,6 +91,9 @@
       <workItem from="1599788679691" duration="5000" />
       <workItem from="1599788808978" duration="13549000" />
       <workItem from="1599812092976" duration="5832000" />
+      <workItem from="1600046661478" duration="6618000" />
+      <workItem from="1600054222630" duration="7227000" />
+      <workItem from="1600069236281" duration="9530000" />
     </task>
     <servers />
   </component>
@@ -110,10 +113,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="697" y="313" key="#ESLint" timestamp="1599634020844">
+    <state x="697" y="291" key="#ESLint" timestamp="1600052770260">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="697" y="313" key="#ESLint/0.0.1536.824@0.0.1536.824" timestamp="1599634020844" />
+    <state x="697" y="291" key="#ESLint/0.0.1536.824@0.0.1536.824" timestamp="1600052770260" />
     <state x="838" y="266" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599552354650">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -162,10 +165,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="69" y="0" width="600" height="824" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1599720120108" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1599809537873">
+    <state x="426" y="186" key="run.anything.popup" timestamp="1600075651446">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1599809537873" />
+    <state x="426" y="186" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1600075651446" />
     <state x="747" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1599639959589">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

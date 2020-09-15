@@ -8,10 +8,11 @@ async function bootstrap() {
   app.enableCors()
 
   const options= new DocumentBuilder()
-      .setTitle("全站之巅-后台管理API")
-      .setDescription("供后台管理界面调用的API")
+      .setTitle("全站之巅-前端管理API")
+      .setDescription("供网站和App调用的API")
       .setVersion("1.0")
       .addTag("cats")
+      .addBearerAuth()
       .build()
 
   const document =SwaggerModule.createDocument(app,options)
